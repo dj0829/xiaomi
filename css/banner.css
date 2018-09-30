@@ -1,0 +1,69 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+i,em{font-style: normal;}
+b,strong{font-weight: normal;}
+a,u{text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-size: 16px;font-weight: normal;}
+img{border: 0;}
+input{outline: none;border:0;}
+ul,ol,li{list-style:none;}
+ul {
+    list-style: none;
+}
+.banner-inner img {
+    display: block;
+}
+a {
+    text-decoration:  none;
+    color: #fff;
+}
+.qf-banner {
+    position: relative;
+    width: 1226px;
+    height: 460px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.banner-inner {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 9999px;
+    height: 460px;
+}
+.banner-inner img {
+    float: left;
+}
+.banner-tip {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.banner-tip li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-color: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    opacity: 0.8;
+}
+.banner-tip li.active {
+    opacity: 1;
+    background-color:#554848;
+}
+.left-btn, .right-btn {
+    position: absolute;
+    top: 50%;
+    margin-top: -23px;
+    width: 35px;
+    height: 46px;
+    display: none;
+    background-image: url(../images/pre.png);
+}
+.left-btn {
+    left: 260px;
+}
+.right-btn {
+    right: 25px;
+    background-position: -45px, 0;
+}
