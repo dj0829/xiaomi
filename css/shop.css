@@ -185,49 +185,6 @@ option{height:200px;}
 .search button:active {
 	transform: scale(0.98);
 }
-
-/* #shop{
-    width: 1280px;
-    height: 600px;
-    background: #ccc;
-    position:relative;
-    margin: 0 auto;
-}
-.img{
-    width:215px;
-    height: 443px;
-    position: relative;
-    top: 20px;
-    left:20px;
-}
-.img2{
-    width:215px;
-    height: 443px;
-    position: absolute;
-    top: 20px;
-    left:250px;
-    display: none;
-    overflow: hidden;
-}
-#img-2{
-    position: absolute;
-
-}
-.img-box{
-    width:215px;
-    height:124px;
-    margin:30px 0 0 20px;
-    padding-left:10px;
-}
-.img-box img{
-    width:104px;
-    height:124px;
-    text-align: center;
-}
-.img-box li{
-    float:left;
-    
-} */
 #box{
 	width: 1280px;
 	height:600px;
@@ -279,8 +236,8 @@ ul {
   }
   .show-big-image {
     position: absolute;
-    left: 650px;
-    top: 150px;
+    left: 400px;
+    top: 130px;
     width: 362px;
     height: 462px;
     overflow: hidden;
@@ -294,10 +251,11 @@ ul {
     width: 500px;
   }
   .car{
-	  width: 880px;
-	  height: 600px;
+	  width: 840px;
+	  min-height: 600px;
 	  float: right;
 	  padding-left:20px;
+	  padding-right:50px;
   }
   .txt{
 
@@ -309,28 +267,187 @@ ul {
 	  color:black;
   }
   .car h3 {
-	font-size:20px;
-	color:black;
-	margin-top:14px;
+	font-size:16px;
+	color:red;
+	margin-top:14px;	
 	margin-bottom:30px;
+  }
+  .car h3 b{
+	  color: #666;
   }
   .car span{
 	color:red;
   }
   .present{
-	  width:880px;
-	  height: 50px;
+	  width:840px;
+	  height: 40px;
 	  border-bottom:1px solid #ccc;
 	  border-top:1px solid #ccc;
 	  padding-top: 15px;
 	}
 	.present h4{
 		display:inline-block;
-		padding:5px 40px;
+		width:80px;
+		height:25px;;
 		background:#ff6700;
-		font-size:20px;	
+		font-size:12px;	
+		text-align: center;
+		line-height:25px;
 	}
 	.present span{
 		margin-left:5px;
 		color:black;
 	}
+	.location{
+		width:840;
+		height: 74px;
+		background: #fafafa;
+		margin-top:45px;
+		padding-top:30px;
+		border:1px solid #e0e0e0;
+	}
+	.location li{
+		float: left;
+		margin-left:20px;
+		color:#333;	
+	}
+	.location li:nth-child(1){
+		color:#999;
+	}
+	.location .icon-renyuandingwei{
+		font-size:20px;
+	}
+	.location li:nth-child(6) a{
+		color:#ff6700;
+	}
+	.location .li-7 {
+		color:#ff6700;
+	}
+	.smallbox-1,.smallbox-2{
+		width:840px;
+		height:140px;
+	}
+	 h5{
+		display: block;
+		font-size:18px;
+		margin: 40px 0 20px 0 ;
+	}
+	.smallbox-1 .small-1,.smallbox-2 .small-1{
+		width:370px;
+		display: block;
+		padding:10px 20px 10px 20px;
+		border:1px solid #e0e0e0;
+		float: left;
+		color: #333;
+	}
+	.smallbox-1 .small-2,.smallbox-2 .small-2{
+		margin:0 0 20px 10px;
+	}
+	.smallbox-1 .small-1 span{
+		float: right;
+		color: #b0b0c1;
+	}
+	.smallbox-2 .small-1 img{
+		width:16px;
+		height: 18px;
+		float: left;
+		margin:4px 20px 0 150px;
+	}
+	.smallbox-2 .small-1 span{
+		float: left;
+		color: #b0b0c1;
+	}
+	.smallbox-3{
+		width:840px;
+		height:350px;
+	}
+	.small-3{
+		width: 840px;
+		height:150px;
+		border:1px solid #ccc;
+	}
+	.small--4{
+		border-bottom:none; 
+	}
+	.circle{
+		width:15px;
+		height: 15px;
+		border:1px solid #ccc;
+		border-radius:50%;
+		margin: 58px 20px 0 40px;
+		float: left;
+	}
+	.small-3 .icon-baozhang-copy{
+		margin: 38px 0 0 20px;
+		float: left;
+		font-size:40px;
+		color: #6680d5;
+	}
+	.small-3 span{
+		display: block;
+		margin:0 0 10px 170px;
+	}
+	.small-3 .span-1{
+		margin-top: 38px;	
+	}
+	.small-3 .span-2{
+		color: #ccc;
+		font-size:14px;
+	}
+	.small-3 .span-4{
+		float: right;
+		margin: -30px 20px 0 0;
+	}
+	.price{
+		width: 800px;
+		height: 70px;
+		background:#f9f9fa;
+		margin-top:20px;
+		padding:30px 20px;
+	}
+	.price h4{
+		font-size:12px;
+		color: #666;
+		margin-bottom:30px;
+		
+	}
+	.price h4 span{
+		float: right;
+		color: #666;
+	}
+	.price b{
+		font-size:24px;
+		color: orangered;
+	}
+	.inpp{	
+		margin-top:40px;
+	}
+	.count{
+		width:75px;
+		border:1px solid #ccc;
+		height:25px;
+		padding:5px;
+		float:left;
+	}
+	.btn{
+		padding:10px;
+		background:#ff6700;
+		border:none;
+		color: #fff;
+		float: left;
+	}
+	.btn:hover{
+		background: #f25807;
+	}
+	.but{
+		width:80px;
+		height: 37px;
+		background:#ccc;
+		float: left;
+		border: none;
+		margin-left:15px;
+	}
+	.but:hover{
+		background: #757575;
+	}
+

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/register.css">
+</head>
+
+<body>
+    <div id="logo">
+        <div class="img">
+            <img src="images/logo_03.jpg" alt="">
+        </div>
+        <div class="txt">
+            <h2>注册小米账号</h2>
+        </div>
+        <div class="login">
+                    <form class="login-form" onsubmit="return false">
+                        <h1>国家/地区</h1>
+                        <input class="inp" name="username" type="select" required="required" placeholder="中国" /></br>
+                        <span> 成功注册帐号后，国家/地区将不能被修改</span>
+                        <h2>手机号码</h2>
+                        <input type="text" list="list" placeholder="86" class="inp lst">
+                        <datalist class="list">
+                                <option value="86">86</option>
+                                <option value="86">86</option>
+                        </datalist>
+                        <input class="inp inp3" name="password" type="text" required="required" placeholder="请输入手机号码" />
+                        <button class="but" type="submit" name="login-btn">立即注册</button>
+                    </form>
+            </div>
+    </div>
+  
+    <script src="ajax.js"></script>
+    <script src="register.js"></script>
+    <script>
+        register.init('.login-form')
+    </script>
+</body>
+
+</html>

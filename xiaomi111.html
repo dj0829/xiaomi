@@ -3,7 +3,7 @@
 
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>小米商城</title>
 	<link rel="stylesheet" type="text/css" href="css/xiaomi.css" />
 	<link rel="stylesheet" href="css/banner.css">
 	<link rel="stylesheet" href="css/iconfont.css"/>
@@ -55,7 +55,7 @@
 					<a href="#">
 						<img src="images/gwc_03.jpg" alt="t">
 					</a>
-					<a href="#">购物车(0)</a>
+					<a href="#" class="gwc">购物车(0)</a>
 				</li>
 			</ul>
 		</div>
@@ -194,7 +194,7 @@
 	<!-- 4快小图 -->
 	<div id="img-F">
 		<div class="left-1">
-			<a href="#">
+			<a href="#" target="_blank">
 				<img src="images/img111_03.jpg" alt="t">
 				<br/>选购手机</a>
 			<a href="#">
@@ -643,14 +643,23 @@
 
 	<script>
 
-		var $btn = document.querySelector('.bur');
-		$btn.onclick = function () {
-			location.href = 'regisetr.html';
+		var $bur = document.querySelector('.bur');
+		$bur.onclick = function () {
+			location.href = 'register.html';
 		}
 		var $sub = document.querySelector('.sub');
 		$sub.onclick = function () {
-			location.href = 'regisetr.1.html';
+			location.href = 'login1.html';
 		}
+		var $sku = document.querySelector('#sku');
+		$sku.onclick = function () {
+			location.href = 'shop.html';
+		}
+		var $gwc = document.querySelector('.gwc');
+		$gwc.onclick = function () {
+			location.href = 'shoping.html';
+		}
+
 
 	</script>
 

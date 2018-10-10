@@ -1,0 +1,152 @@
+blockquote,body,button,dd,dl,dt,fieldset,form,h1,h2,h3,h4,h5,h6,hr,input,legend,li,ol,p,pre,td,textarea,th,ul{margin:0;padding:0}
+i,em{font-style: normal;}
+b,strong{font-weight: normal;}
+a,u{text-decoration: none;}
+h1,h2,h3,h4,h5,h6{font-size: 16px;font-weight: normal;}
+img{border: 0;}
+input{outline: none;border:0;}
+ul,ol,li{list-style:none;}
+body{
+    position: relative;
+}
+#logo{
+    width:1130px;
+    height:98px;
+    margin:0 auto;
+}
+.href-1 img{
+    width:200px;
+    height:98px;
+}
+#banner{
+    height:588px;
+    position:relative;
+    overflow: hidden;
+}
+.img{
+    overflow:hidden;
+}
+.img img{
+    widows: 2560px;
+    height:588px;
+    position:absolute;
+    left:50%;
+    margin-left:-1280px;
+    z-index:-1;
+    
+}
+.login{
+    position:absolute;
+    right:10px;
+    top: 150px;
+    width: 410px;
+    height: 554px;
+    background:#fff;
+    padding:15px;
+    z-index: 1;
+}
+.login .boxul{
+    width:410px;
+    height: 100px;
+}
+.login .boxul li{
+    float: left;
+    font-size: 30px;
+    color: black;
+    width:204px;
+    text-align: center;
+    margin-top:30px;
+  
+}
+.login .boxul li:last-child{
+    border-left:2px solid #999;
+}
+.boxul li:hover{
+    color:orangered;
+}
+.all{
+
+}
+.login-form .inp{
+    width:410px;
+    height:50px;
+    border:1px solid #ccc;
+}
+.login-form .inp2{
+    margin:20px 0 30px 0;
+}
+.but{
+    width:410px;
+    height: 60px;
+    background: orangered;
+    border:none;
+    margin-bottom:10px;
+}
+.wangji a{
+    font-size:16px;
+    color:orangered;
+    float: left;
+} 
+.box2{
+    float: right;
+}
+.box2 a{
+    color:#666;
+    float: left;
+    padding:0 10px 0 10px;
+}
+.box2 a:last-child{
+    border-left: 1px solid #666;
+}
+fieldset{
+    width:410px;
+    margin-top:100px;
+    height:100px;
+    border:none;
+    border-top:1px solid #ccc;
+    /* position: relative; */
+}
+fieldset{
+    width:400px;
+    height:100px;
+}
+ul{
+    width:340px;
+    height:100px;
+    margin: 10px auto;
+
+}
+ul a{
+   
+    margin: 0 15px;
+}
+ul .iconfont{
+    font-size:40px;
+    text-align:center;
+}
+.icon-qq{
+    color: #0288d1;
+}
+.icon-weibo{
+    color: #d32f2f;
+}
+.icon-zhifubaozhifu{
+    color: #0ae;   
+}
+.icon-weixin{
+    color: #00d20d;
+}
+ul .icon-qq{
+    font-size:45px;  
+}
+ul .icon-zhifubaozhifu{
+    font-size:44px;  
+}
+#bottom{
+    width:100px;
+    height:500px;
+    background:yellow;
+}
+
+
+
