@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        ul,
+        ol,
+        li {
+            list-style: none;
+        }
+
+        #logo {
+            width: 100%;
+
+            
+            height: 99px;
+            margin: 100px auto;
+            margin-bottom: 0;
+        }
+
+        #logo .logo1 {
+            width: 55px;
+            height: 55px;
+            background: url(../images/logo_03.jpg) no-repeat;
+            margin: 22px 0 0 27px;
+            float: left;
+        }
+
+        .logo1 a {
+            width: 55px;
+            height: 55px;
+            display: block;
+            text-indent: -9999px;
+        }
+
+        .nav1 ul {
+            margin-left: 189px;
+            height: 16px;
+        }
+
+        .nav1 li {
+            float: left;
+            margin: 43px 0 0 20px;
+
+        }
+
+        .nav1 a {
+            display: block;
+            font-size: 16px;
+            color: #30332a;
+        }
+
+        .nav1 li:hover a {
+            color: #ff6700;
+        }
+
+        .LOGO {
+            width: 100%;
+            height: 246px;
+            margin-top:-24px;
+            background: pink;
+           position: absolute;
+             z-index:2;
+            transition: all .5s linear;
+            opacity:0;
+            border-top: 1px solid #ccc;
+
+        }
+        .nav1 li:hover .LOGO {
+            transform: translateY(-140px);
+            opacity: 1;
+            height: 140px;
+        }
+        .LOGO-1 {
+            width: 1226px;
+          margin: 0 auto;
+        }
+
+
+        .LOGO-1 span {
+            color: #ff6700;
+            font-size: 12px;
+            padding: 1px 15px;
+            border: 1px solid #ff6700;
+            display: block;
+            margin-bottom:10px;
+        }
+
+       .LOGO-2 {
+            margin: 0 38px;
+            width: 150px;
+            text-align: center;
+        }
+
+        .LOGO-2 a img {
+            width: 50px;
+            height: 50px;
+            margin-top: 5px;
+        }
+
+        .LOGO-2 p a {
+            font-size: 14px;
+            color: #333;
+            line-height: 14px;
+            margin-top: -5px;
+
+        }
+
+        .LOGO-2 p {
+            margin-bottom: 0;
+        }
+
+        .LOGO-2 b {
+            font-size: 12px;
+            color: #ff6700;
+
+        }
+
+
+    </style>
+</head>
+
+<body>
+    <div id="logo">
+        <div class="logo1">
+            <a href="#" title="小米商城">logo</a>
+        </div>
+        <div class="nav1">
+            <ul>
+                <li>
+                    <a href="#">小米手机</a>
+                    <div class="LOGO">
+                            <div class="LOGO-1">
+                                <div class="LOGO-2">
+                                    <span>新品</span>
+                                    <a href="#">
+                                        <img src="images/qingchun-320.png" alt="img">
+                                    </a>
+                                    <p>
+                                        <a href="#">小米8 青春版</a>
+                                    </p>
+                                    <b>3399元起</b>
+                                </div>
+                            </div>
+                    </div>
+                
+                </li>
+
+                <li>
+                    <a href="#">红米</a>
+                </li>
+                <li>
+                    <a href="#">笔记本</a>
+                </li>
+                <li>
+                    <a href="#">电视</a>
+                </li>
+                <li>
+                    <a href="#">盒子</a>
+                </li>
+                <li>
+                    <a href="#">新品</a>
+                </li>
+                <li>
+                    <a href="#">路由器</a>
+                </li>
+                <li>
+                    <a href="#">智能硬件</a>
+                </li>
+                <li>
+                    <a href="#">服务</a>
+                </li>
+                <li>
+                    <a href="#">社区</a>
+                </li>
+                
+            </ul>
+        </div>
+        
+    </div>
+
+</body>
+
+</html>
