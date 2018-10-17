@@ -26,6 +26,7 @@ var shop = (function(){
                 //    console.log(target);
                     _this.addCar(id, count);
                     // console.dir(count);
+                    alert("宝贝已加入购物车");
                 }
             }, false);
         },

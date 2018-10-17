@@ -21,7 +21,7 @@ var register = (function(){
                             _this.register(data);
                         }
                     }
-                    sendAjax('http://localhost:8029/xiaomi/xiaomi/register.php', params);
+                    sendAjax('http://localhost:8029/xxxx/xiaomi/register.php', params);
                 },
                 // 判断用户名称是否存在
                 this.$usernameInp. addEventListener('change', function(){
@@ -35,7 +35,7 @@ var register = (function(){
                             _this.checkUsername(data);
                         }
                     }
-                    sendAjax('http://localhost:8029/xiaomi/xiaomi/user.php', params);
+                    sendAjax('http://localhost:8029/xxxx/xiaomi/user.php', params);
                 }, false);
             },
             checkUsername: function(data) {

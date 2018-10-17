@@ -3,6 +3,7 @@ var shoping = (function(){
     return{
         init:function(ele){
             this.$ele = document.querySelector(ele);
+            this.$btn = document.querySelector('.btn')
             this.event();
             this.getShop();//页面一加载就渲染数据
             // this.getData();
@@ -68,6 +69,7 @@ var shoping = (function(){
         
             }
             this.$ele.innerHTML = arr.join('');
+
         }
     }
 }())

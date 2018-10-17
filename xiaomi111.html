@@ -3389,14 +3389,37 @@
 				prevEl: '.swiper-button-prev',
 			},
 		})
-		swiper.el.onmouseover = function () {
-			swiper.navigation.$nextEl.removeClass('hide');
-			swiper.navigation.$prevEl.removeClass('hide');
-		}
-		swiper.el.onmouseout = function () {
-			swiper.navigation.$nextEl.addClass('hide');
-			swiper.navigation.$prevEl.addClass('hide');
-		}
+		// swiper.el.onmouseover = function () {
+		// 	swiper.navigation.$nextEl.removeClass('hide');
+		// 	swiper.navigation.$prevEl.removeClass('hide');
+		// }
+		// swiper.el.onmouseout = function () {
+		// 	swiper.navigation.$nextEl.addClass('hide');
+		// 	swiper.navigation.$prevEl.addClass('hide');
+		// }
 	</script>
+		    <script>
+					var $hover = document.querySelector('.hover')
+					var $minuse = document.querySelector('.minuse')
+					var $secont = document.querySelector('.secont')			
+					function fn(date1){
+							var date = new Date();//获取当前时间
+							var date1 = new Date(date1);
+							var hao = (date1.getTime()-date.getTime())/1000;
+							$secont.innerHTML = Math.floor(hao % 60);
+							$minuse.innerHTML = Math.floor(hao / 60 % 60);
+							$hover.innerHTML = Math.floor(hao / 60 / 60);
+							if($secont.innerHTML < 10){
+								$secont.innerHTML = '0'+$secont.innerHTML;
+							}
+							if($minuse.innerHTML < 10){
+								$minuse.innerHTML = '0'+$minuse.innerHTML;
+							}
+							if($hover.innerHTML < 10){
+								$hover.innerHTML = '0'+$hover.innerHTML;
+							}
+						}
+						 setInterval(function() {fn('2019/10/17');},1000);		
+					</script>
 </body>
 </html>
